@@ -1,0 +1,32 @@
+/* pages/shoplist/shoplist.wxss */
+.shoplistItem {
+    display: flex;
+    border-radius: 8rpx;
+    border: 1rpx solid #efefef;
+    padding: 15rpx;
+    box-shadow: 1rpx 1rpx 6rpx #aaa;
+    margin: 15rpx;
+}
+
+.thumb image {
+    width: 250rpx;
+    height: 250rpx;
+    /* 解决图片底部有距离 */
+    display: block;
+    margin-right: 15rpx;
+}
+
+.shoplistInfo {
+    display: flex;
+    flex-direction: column;
+    /* 让每一个text独占一行 */
+    justify-content: space-around;
+}
+
+.shoplistInfo text {
+    font-size: 24rpx;
+}
+
+.title {
+    font-weight: bold;
+}
